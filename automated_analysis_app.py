@@ -387,6 +387,7 @@ def main():
     elif app_mode == SIDEBAR_OPTION_TEAM:
         st.sidebar.write(" ------ ")
         st.subheader("Presentation of the team :")
+        st.image("information/ISEN.jpg", width = 300)
         st.write("We are students in the second year of the engineering cycle at ISEN in Brest. We carried out this project as part of our studies to validate the skills acquired throughout the year and also to facilitate the work of laboratory technicians by reducing analysis time and making the data collected as reliable as possible.")
         st.sidebar.write('Please feel free to connect with us on Linkedin !')
         st.sidebar.write(" ------ ")
